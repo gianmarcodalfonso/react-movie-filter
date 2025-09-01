@@ -28,6 +28,18 @@ function App() {
 								);
 							})}
 						</ul>
+						<form className="my-2">
+							<select
+								class="form-select"
+								aria-placeholder="Seleziona il genere"
+							>
+								<option value="">Seleziona un genere</option>
+								<option value="Fantascienza">Fantascienza</option>
+								<option value="Thriller">Thriller</option>
+								<option value="Romantico">Romantico</option>
+								<option value="Azione">Azione</option>
+							</select>
+						</form>
 					</div>
 				</div>
 			</div>
